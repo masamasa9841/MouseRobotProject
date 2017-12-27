@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="タミヤの壁伝いネズミにブレッドボードをくっつけて改造します。">
+    <meta name="author" content="J. Supratman">
+    <meta property="og:title" content="壁伝いねずみへの電子回路の搭載" />
     <link rel="icon" href="./favicon.ico">
 
     <title>壁伝いねずみへの電子回路の搭載</title>
@@ -23,100 +24,64 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="./assets/js/ie-emulation-modes-warning.js"></script>
-    <style>
-	h4 {font-weight:bold}
-    </style>
+</head>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+<body>
+  <div id="navigation"></div>
+  <div class="container">
+    <div id="header"></div>
+    <div class="row">
+      <div class="imui-form-container blog-main">
+        <div class="blog-post">
 
-  <body>
-
-    <div class="blog-masthead">
-      <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item" href="index.html">Home</a>
-          <a class="blog-nav-item" href="parts.html">部品の調達</a>
-          <a class="blog-nav-item" href="assembly.html">組み立て（基本）</a>
-		  <a class="blog-nav-item" href="application.html">組み立て (応用)</a>
-		  <a class="blog-nav-item" href="wire.html">ジャンパー線の加工</a>
-        </nav>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="blog-header">
-        <h1 class="blog-title">壁伝いねずみへの電子回路の搭載</h1>
-        <p class="lead blog-description">by J. Supratman and <a href="https://lab.ueda.asia">CIT Autonomous Robot lab.</a>. Last modified: Aug. 20, 2016.</p>
-      </div>
-
-      <div class="row">
-
-        <div class="imui-form-container blog-main">
-          <div class="blog-post">
-			<a href="index.html">Home</a>
-			<hr />
             <h2 class="blog-post-title" id="assembly">ジャンパー線の加工</h2>
             <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
             <p>ここではジャンパー線の加工方法を紹介します。工具があると便利ですが、なくても加工は可能です。</p>
             <p>動画も作成したので、是非ご活用下さい。</p>
             <iframe width="560" height="315" class="mobile-image" src="https://www.youtube.com/embed/v0Ydj3SftWM" frameborder="0" allowfullscreen></iframe>
-			<hr />
+
 			<h2>工具を使わない場合</h2>
             <h3>手順1</h3>
             <p>ハサミを使ってワイヤーコードを切ります。</p>
 		    <img src="./image/DSC_0292.jpg?raw=true" width="300"/>
-			<hr />
 
             <h3>手順2</h3>
             <p>線の端から5mm程剥ぎます。感触が変わるところまで切り込みを入れます。切り込みを入れた所は白っぽい色になります。</p>
 		    <img src="./image/DSC_0294.jpg?raw=true" width="300"/>
 		    <img src="./image/DSC_0298.jpg?raw=true" width="300"/>
-			<hr />
 
             <h3>手順3</h3>
             <p>切り込み入れたところを回しながら引っ張っぱります</p>
 		    <img src="./image/DSC_0299.JPG?raw=true" width="300"/>
-			<hr />
 
             <h3>手順4</h3>
             <p>以下のように小さなフックを作り,線を固定してビニールテープで巻きます。</p>
 		    <img src="./image/hook.jpg?raw=true" width="300"/>
 		    <img src="./image/tape 2.jpg?raw=true" width="300"/>
-			<hr />
 
 
             <h3>手順5</h3>
 			<p>完成です。</p>
 		    <img src="./image/complete.jpg?raw=true" width="300"/>
 
-			<hr />
 			<h2>工具を使う場合</h2>
             <h3>手順1</h3>
             <p>ニッパーを使ってワイヤーコードを切ります。</p>
 		    <img src="./image/cut.jpg?raw=true" width="300"/>
-			<hr />
 
             <h3>手順2</h3>
             <p>ワイヤーストリッパーを使って線の端から5mm程剥ぎます。</p>
 		    <img src="./image/strip.jpg?raw=true" width="300"/>
-			<hr />
 
             <h3>手順3</h3>
             <p>以下のように小さなフックを作り,線を固定してビニールテープで巻きます。</p>
 		    <img src="./image/hook.jpg?raw=true" width="300"/>
 		    <img src="./image/tape 2.jpg?raw=true" width="300"/>
-			<hr />
 
 
             <h3>手順4</h3>
 			<p>完成です。</p>
 		    <img src="./image/complete.jpg?raw=true" width="300"/>
-			<hr />
           </div><!-- /.blog-post -->
 
           <nav>
@@ -125,44 +90,28 @@
             </ul>
           </nav>
 
-        </div><!-- /.blog-main -->
+      </div>
+      <!-- /.blog-main -->
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-    <!--
-          <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-          </div>
-    -->
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="https://github.com/jsupratman13/MouseRobotProject" target="_blank">資料リポジトリ（GitHub）</a></li>
-              <li><a href="https://lab.ueda.asia" target="_blank">CIT Autonomous Robot lab. (Ueda lab.)</a></li>
-              <li><a href="https://lab.ueda.asia/?page_id=1122" target="_blank">Tamiya Hack Project (in the site of Ueda lab.)</a></li>
-            </ol>
-          </div>
-        </div><!-- /.blog-sidebar -->
+      <div id="sidebar"></div>
 
-      </div><!-- /.row -->
+    </div>
+    <!-- /.row -->
 
-    </div><!-- /.container -->
+  </div>
+  <!-- /.container -->
 
-    <footer class="blog-footer">
-      <div class="textwidget"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.ja"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0;" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />このサイトの内容物は <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.ja">クリエイティブ・コモンズ 表示-非営利 4.0 ライセンスの下に提供されています。</a></div>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
-    </footer>
+  <div id="footer"></div>
 
-
-    <!-- Bootstrap core JavaScript
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="./dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="./dist/js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="./html-parts.js"></script>
+</body>
+
 </html>
