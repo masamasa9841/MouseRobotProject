@@ -13,10 +13,17 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-	margin-top: 0;
+	margin: 30px 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	color: #333;
+}
+
+h3 {
+	padding: 0.25em 0.5em;/*上下 左右の余白*/
+	color: #494949;/*文字色*/
+	background: transparent;/*背景透明に*/
+	border-left: solid 5px #428bca;/*左線*/
 }
 
 
@@ -142,8 +149,10 @@ h6, .h6 {
 	margin-bottom: 60px;
 }
 .blog-post-title {
-	margin-bottom: 5px;
 	font-size: 40px;
+	padding: 0.5em 0;/*上下の余白*/
+	border-top: solid 3px #428bca;
+	border-bottom: solid 3px #428bca;
 }
 .blog-post-meta {
 	margin-bottom: 20px;
