@@ -2,7 +2,7 @@
 tutorial of how to make light tracking robot
 ![alt text](MouseRobot.JPG)
 
-* project page: https://jsupratman13.github.io/MouseRobotProject/index.html
+* project page: https://masamasa9841.github.io/MouseRobotProject/docs/
 
 ## Example
 https://youtu.be/eWR0JLNSg-g
