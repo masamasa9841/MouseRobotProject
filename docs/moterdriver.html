@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="タミヤの壁伝いネズミにブレッドボードをくっつけて改造します。">
+    <meta name="author" content="J. Supratman">
+    <meta property="og:title" content="壁伝いねずみへの電子回路の搭載" />
+    <link rel="icon" href="./favicon.ico">
+
+    <title>壁伝いねずみへの電子回路の搭載</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112200616-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112200616-1');
+    </script>
+</head>
+
+<body>
+    <div id="navigation"></div>
+    <div class="container">
+        <div id="header"></div>
+        <div class="row">
+            <div class="imui-form-container blog-main">
+                <div class="blog-post">
+
+                    <h2 class="blog-post-title" id="assembly">Arduinoを使用した拡張例 </h2>
+                    <p>ロジックICを使用すると様々な動作が作成可能になります。</p>
+
+                    <h3>目次</h3>
+                    <ul>
+                        <li>
+                            <a href="#01">使用するIC</a>
+                        </li>
+                        <li>
+                            <a href="#02">NOT回路</a>
+                        </li>
+                        <li>
+                            <a href="#03">AND回路</a>
+                        </li>
+                        <li>
+                            <a href="#04">NAND回路</a>
+                        </li>
+                    </ul>
+
+                    <h3 id="01">使用するモータドライバ</h3>
+                    <img src="./image/NAND.JPG?raw=true" width="200" />
+                    <p><a href="http://akizukidenshi.com/catalog/g/gI-02001/" target="_blank">ＴＡ７２９１Ｐ</a>を使用します</p>
+
+                    <h3 id="02">NOT回路</h3>
+                    <p>動作を反転させます。</p>
+                    <p>基本編ではCdsセルと抵抗の+-を逆にしましたが、ICを使っても反転可能です。</p>
+                    <img width="300" src="./image/NAND_NOT.png?raw=true" />
+                    <img width="300" src="./image/NAND_NOT.jpg?raw=true" />
+                    <p>
+                        <iframe width="420" height="315" class="mobile-image" src="https://www.youtube.com/embed/mpH3o9E6-Lc" frameborder="0" allowfullscreen></iframe>
+                    </p>
+                    <a href="https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-3">https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-3</a>
+
+                    <h3 id="03">AND回路</h3>
+                    <p>2つのセンサーが同時に反応した時にモーターが回ります。</p>
+                    <img width="300" src="./image/NAND_AND.png?raw=true" />
+                    <img width="300" src="./image/NAND_AND.jpg?raw=true" />
+                    <p>
+                        <iframe width="420" height="315" class="mobile-image" src="https://www.youtube.com/embed/Fbf5saLnWE8" frameborder="0" allowfullscreen></iframe>
+                    </p>
+                    <a href="https://circuits.io/circuits/2723505-mouserobotproject-circuit-variation-4">https://circuits.io/circuits/2723505-mouserobotproject-circuit-variation-4</a>
+
+                    <h3 id=04>NAND回路</h3>
+                    <p>AND回路の逆の動作をします。</p>
+                    <img width="300" src="./image/NAND_NAND.png?raw=true" />
+                    <img width="300" src="./image/NAND_NAND.jpg?raw=true" />
+                    <p>
+                        <iframe width="420" height="315" class="mobile-image" src="https://www.youtube.com/embed/t4DAuolzJ3I" frameborder="0" allowfullscreen></iframe>
+                    </p>
+                    <a href="https://circuits.io/circuits/2746604-mouserobotproject-circuit-variation-5">https://circuits.io/circuits/2746604-mouserobotproject-circuit-variation-5</a>
+
+
+                </div>
+                <!-- /.blog-post -->
+
+                <nav>
+                    <ul class="pager">
+                        <li>
+                            <a href="assembly.html">Previous</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            <!-- /.blog-main -->
+
+            <div id="sidebar"></div>
+            <!-- /.blog-sidebar -->
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <div id="footer"></div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./html-parts.js"></script>
+</body>
+
+</html>
