@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="タミヤの壁伝いネズミにブレッドボードをくっつけて改造します。">
+    <meta name="author" content="J. Supratman">
+    <meta property="og:title" content="壁伝いねずみへの電子回路の搭載" />
+    <link rel="icon" href="./favicon.ico">
+
+    <title>壁伝いねずみへの電子回路の搭載</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112200616-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112200616-1');
+    </script>
+</head>
+
+<body>
+    <div id="navigation"></div>
+    <div class="container">
+        <div id="header"></div>
+        <div class="row">
+            <div class="imui-form-container blog-main">
+                <div class="blog-post">
+
+                    <h2 class="blog-post-title" id="assembly">ROSを使用した拡張例 </h2>
+                    <p>ROSを利用した高性能なロボットが普及してきています。</p>
+                    <p>ロボットにArduinoをのせることによって、ROSを簡単に学べます</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/e8DUpQFbiHE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                    <h3>Arudino nano</h3>
+                    <p>今回使用するArduinoです。</p>
+                    <p>Arduino Unoでも大丈夫ですが、ブレッドボードの大きさ的にArduino nanoを使用しています。</p>
+                    <p>
+                        <img width="300" src="./image/arduino_nano.jpg?raw=true" />
+                    </p>
+
+                    <h3>回路図</h3>
+                    <p>fritzingで公開をしています。</p>
+                    <a href="http://fritzing.org/projects/mouserobot_ros#">http://fritzing.org/projects/mouserobot_ros#</a>
+                    <p>
+                        <img width="300" src="./image/mouserobot_ros_kairo.png?raw=true" />
+                    </p>
+                    <h3>プログラムなど</h3>
+                    <p>詳しくはGitHubで公開しているので、そちらを参照してください。</p>
+                    <a href="https://github.com/masamasa9841/mouserobot_ros">https://github.com/masamasa9841/mouserobot_ros</a>
+
+
+                </div>
+                <!-- /.blog-post -->
+
+                <nav>
+                    <ul class="pager">
+                        <li>
+                            <a href="assembly.html">Previous</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+            <!-- /.blog-main -->
+
+            <div id="sidebar"></div>
+            <!-- /.blog-sidebar -->
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <div id="footer"></div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="./html-parts.js"></script>
+</body>
+
+</html>
