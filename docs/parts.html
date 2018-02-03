@@ -25,6 +25,19 @@
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
   <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112200616-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112200616-1');
+  </script>
 </head>
 
 <body>
@@ -35,7 +48,7 @@
       <div class="imui-form-container blog-main">
         <div class="blog-post">
 
-          <h2 class="blog-post-title" id="parts">部品の調達</h2>
+          <h2 class="blog-post-title" id="parts">部品の調達・紹介</h2>
           <p>部品と購入先を示します。</p>
           <hr />
           <h3>必須のもの</h4>
@@ -48,7 +61,7 @@
 
             <hr />
             <h4>2. ブレッドボード　BB-801 1個</h4>
-
+            <p>マウスロボットで使う電子回路の基盤です。</p>
             <p>
               <a href="http://akizukidenshi.com/catalog/g/gP-05294/">秋月電子</a>から入手。サイズは82x53x8mmです。サイズが近ければ他のものでも可能。</p>
 
@@ -57,8 +70,8 @@
             <hr />
             <h4>3. CH74-2032LF CH74型用（CR2032 1個用）電池ボックス 1個</h4>
 
-            <p>ボタン電池用のコンパクトな電池ボックスです。
-              <a href="http://akizukidenshi.com/catalog/g/gP-01443/">秋月電子</a>等で購入可能。</p>
+            <p>ボタン電池用のコンパクトな電池ボックスです。</p>
+              <p><a href="http://akizukidenshi.com/catalog/g/gP-01443/">秋月電子</a>等で購入可能。</p>
 
             <img src="./image/batteryholder.jpg?raw=true" width="200" />
 
@@ -72,6 +85,7 @@
             <hr />
             <h4>5. CdSセル（0.5MΩ） GL5516 2個</h4>
 
+            <p>光を検知するセンサです。</p>
             <p>他のものは感度が合わない可能性がありますので、指定のものを購入のこと。
               <a href="http://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-0HRU">千石電商</a>等で。</p>
 
@@ -96,6 +110,7 @@
             <hr />
             <h4>8. NチャネルパワーMOSFET 2個</h4>
 
+            <p>モータのスイッチングとして使います。</p>
             <p>指定のもの（2SK2232）を購入のこと。
               <a href="http://akizukidenshi.com/catalog/g/gI-02414/" target="_blank">秋月電子</a>で入手可能。</p>
 
